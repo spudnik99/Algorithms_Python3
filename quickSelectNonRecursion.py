@@ -1,6 +1,9 @@
 # Python3 program for iterative implementation
 # of QuickSelect 
-  
+
+ # This code is contributed by
+# divyamohan123
+
 # Standard Lomuto partition function 
 def partition(arr, low, high) : 
   
@@ -46,5 +49,3 @@ k = 5
 print("K-th smallest element is", 
        kthSmallest(arr, 0, n - 1, k)) 
   
-# This code is contributed by
-# divyamohan123
